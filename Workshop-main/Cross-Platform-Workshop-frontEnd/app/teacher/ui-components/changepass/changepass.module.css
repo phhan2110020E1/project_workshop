@@ -1,0 +1,15 @@
+/* form.module.css */
+
+/* Các lớp CSS tùy chỉnh cho thông báo */
+.customAlert::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%; /* Điều chỉnh kích thước ảnh phải tùy ý */
+    height: 100%; /* Điều chỉnh kích thước ảnh phải tùy ý */
+    background-image: url(../../../../public/regular-table-bottom.png);
+    background-size: cover;
+  }
+  

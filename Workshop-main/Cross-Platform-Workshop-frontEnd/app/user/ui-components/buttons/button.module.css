@@ -1,0 +1,168 @@
+/* Card_temp_1.css */
+.cardContainer {
+  width: 50px;
+  height: 20px;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 2xl;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: ease 0.3s;
+}
+
+.indicartorsCustom button[data-bs-target] {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: none;
+  size: 5px;
+}
+
+.advancedTitle {
+  font-weight: bold;
+  color: #000e94;
+  font-size: 14px;
+  padding-top: 4px;
+  /* margin-bottom: 0 !important; */
+}
+
+.freeTitle {
+  font-weight: bold;
+  color: #5865F2;
+  font-size: 14px;
+  padding-top: 4px;
+  /* margin-bottom: 0 !important; */
+}
+
+.cardTitle {
+  font-weight: bold;
+  font-size: 38px;
+  color: #000;
+  /* Đặc điểm của tiêu đề h1 */
+}
+
+.card-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.Badge {
+  z-index: 10;
+  background: #5865F2;
+  position: absolute;
+  /* padding: 0.5rem 2rem; */
+  border-top-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  font-weight: 6px;
+  border-radius: 10px;
+}
+
+.card-container .badge h1 {
+  color: #fff;
+}
+
+.thumbnailContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.thumbnailContainer img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 2xl;
+}
+
+.card-container .content-container {
+  width: 100%;
+  height: 100%;
+  margin-right: 2px;
+  border-radius: 2xl;
+}
+
+.card-container .content-container p {
+  margin: 0.5rem 2rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #5865F2;
+}
+
+.darkIcon {
+  /* margin: 0.5rem 2rem; */
+  font-size: 16px;
+  font-weight: bold;
+  color: #383839;
+}
+
+.iconContainer {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.iconCustom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+/* .card-container .content-container .icon-container .icon svg {
+    font-size: 20px;
+    color: #61DBFB;
+    fill: currentColor;
+  }
+
+   */
+.actionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionButton {
+  margin: 0.5rem;
+  background: linear-gradient(105deg, rgba(91, 104, 235, 1) 0%, rgba(40, 225, 253, 1) 100%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: ease 0.3s;
+  border: none;
+}
+
+.actionButton:hover {
+  background: linear-gradient(105deg, rgb(119, 130, 249) 0%, rgb(76, 231, 255) 100%);
+}
+
+.StartText {
+  font-weight: 10px;
+  color: white
+}
+
+.cardCustom {
+  border: none !important;
+  border-radius: 10px;
+  border-top-right-radius: 50px;
+  border: #5865F2;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  /* Loại bỏ viền cho .card và tất cả các phần tử con */
+}
+
+.cardGroup {
+  margin-bottom: 10px;
+}
+
+.cardBody {
+  margin-left: 30px;
+
+}

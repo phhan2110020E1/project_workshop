@@ -1,0 +1,161 @@
+/* Tùy chỉnh các trạng thái của div */
+.disabled {
+    pointer-events: none;
+    background-color: #e21818; /* Màu tối khi vô hiệu hóa */
+  }
+  
+  .enabled {
+    pointer-events: auto;
+    background-color: rgb(21, 72, 212); /* Màu sáng khi có thể tương tác */
+  }
+  
+  /* Hiệu ứng hover */
+  .enabled:hover {
+    background-color: #EFEFEF; /* Màu thay đổi khi di chuột qua */
+  }
+  
+  
+.pricingItemPro:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../../public/pro-table-top.png);
+  z-index: 0;
+  content: '';
+  width: 281px;
+  height: 251px;
+}
+
+.pricingItemPro:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../public/pro-table-bottom.png);
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 201px;
+}
+
+.pricingItemPro span.price {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+.pricingItemPro {
+  margin-top: 7%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+  padding: 120px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height: 140%;
+  margin-bottom: 80px;
+}
+
+.pricingItemPro ul li {
+  color: #4b8ef1;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+
+.pricingItemRegular {
+  margin-top: 7%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+  padding: 90px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height: 140%;
+
+}
+
+.pricingItemRegular ul li {
+  color: #4b8ef1;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.pricingItemRegular:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../../public/regular-table-top.png);
+  z-index: -1;
+  content: '';
+  width: 274px;
+  height: 221px;
+}
+
+.pricingItemRegular:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../../public/regular-table-bottom.png);
+  z-index: -1;
+  content: '';
+  width: 370px;
+  height: 171px;
+}
+
+.pricingItemRegular span.price {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+
+.gradientbutton {
+  display: inline-block !important;
+  padding: 10px 20px !important;
+  margin-top: 4%;
+  border: none;
+  color: #fff !important;
+  text-transform: capitalize;
+  font-size: 15px;
+  height: -10%;
+  background: rgb(19, 175, 240);
+  background: linear-gradient(105deg, rgba(91, 104, 235, 1) 0%, rgba(40, 225, 253, 1) 100%);
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+  text-decoration: none !important;
+}
+.emm {
+  font-style: normal;
+  color: #4b8ef1;
+}
+.label {
+  text-align: left;
+  margin: 0;
+}
+
+.valueCol {
+  text-align: right;
+}
+
+.value {
+  margin: 0;
+}
+
+.gradientbutton:hover{
+  background:  linear-gradient(105deg, rgb(123, 132, 235) 0%, rgbrgb(94, 233, 254)0%);
+  color:  rgba(91, 104, 235, 1) !important;
+
+}

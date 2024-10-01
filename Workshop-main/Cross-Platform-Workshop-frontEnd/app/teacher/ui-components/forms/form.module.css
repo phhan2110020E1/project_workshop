@@ -1,0 +1,112 @@
+.inputCustom {
+    text-align: center;
+    border: 1px none #ccc;
+    width: 50%;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+  .inputCustom2 {
+    text-align: center;
+    border: 1px none #ccc;
+    width:80%;
+    padding-right: 20px;
+    padding-bottom: 20px !important;
+  }
+  .borderButton {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    color: #4b8ef1 !important;
+    border: 1px solid #4b8ef1;
+    text-transform: capitalize;
+    font-size: 15px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all .5s;
+    z-index: 2;
+    position: static;
+    text-decoration: none
+  }
+  .borderButton:hover {
+    background: linear-gradient(105deg, rgba(91, 104, 235, 1) 0%, rgba(40, 225, 253, 1) 100%);
+    color: #fff !important;
+    transition: all 0.2s;
+  }
+  .customFileInput {
+    display: inline-block;
+    background-color: #007bff; /* Màu nền của nút "Chọn tệp" */
+    color: white;
+    padding: 16px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 20%;
+  }
+  .customFileInput:hover {
+  
+    background-color: #a0ceff; /* Màu nền của nút "Chọn tệp" */
+  color: #000000;
+  }
+  
+  .customFileInput input {
+    display: none; /* Ẩn input gốc */
+  }
+  .formCustom::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%; /* Điều chỉnh kích thước ảnh phải tùy ý */
+    height: 100%; /* Điều chỉnh kích thước ảnh phải tùy ý */
+    background-image: url(../../../../public/regular-table-bottom.png);
+    background-size: cover;
+  }
+  .roundedImage {
+    border-radius: 50%;
+    width: 170px; /* Điều chỉnh kích thước ảnh tại đây */
+    height: 170px; /* Điều chỉnh kích thước ảnh tại đây */
+    object-fit: cover; padding: 15px;
+  }
+  .leftAlignedDiv {
+    display: flex;
+    align-items: center;
+  }
+  
+  .customFileInput {
+    margin-left: 10px; /* Điều chỉnh khoảng cách theo nhu cầu */
+  }
+  .h1Custom{
+    color: #4b8ef1;
+  }
+  .lineCustom{
+    padding: 10px;
+  }
+  .imageMargin {
+    margin-bottom: 35px; /* Điều chỉnh giá trị theo nhu cầu */
+  }
+  
+  .customAlert {
+    z-index: -1;
+    /* width: 100%; Điều chỉnh kích thước ảnh phải tùy ý */
+    /* height: 100%; Điều chỉnh kích thước ảnh phải tùy ý */
+    background-image: url('../../../../public/regular-table-top.png');
+        background-size: cover;
+  }
+/* CSS khi hover, sử dụng class okButtonHover */
+.okButton {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Tạo hiệu ứng chuyển đổi màu nền */
+}
+
+/* CSS khi hover, sử dụng class okButtonHover */
+.okButtonHover {
+  background-color: #96d2fa; /* Màu nền thay đổi khi hover */
+  cursor: pointer; /* Đổi con trỏ chuột khi hover */
+}

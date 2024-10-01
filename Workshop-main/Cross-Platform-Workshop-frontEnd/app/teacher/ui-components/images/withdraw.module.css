@@ -1,0 +1,106 @@
+/* styles.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  
+.pricingItemRegular {
+    margin-top: 7%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 50px;
+    padding: 90px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 140%;
+  
+  }
+  .pricingItemRegular {
+    margin-top: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 50px;
+    padding: 90px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .pricingItemRegular ul li {
+    color: #4b8ef1;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .pricingItemRegular:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../../../../public/regular-table-top.png);
+    z-index: 0;
+    content: '';
+    width: 274px;
+    height: 221px;
+  }
+  
+  .pricingItemRegular:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(../../../../public/regular-table-bottom.png);
+    z-index: -1;
+    content: '';
+    width: 370px;
+    height: 171px;
+  }
+  
+  .pricingItemRegular span.price {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    font-weight: 700;
+    z-index: 1;
+    left: 30px;
+    top: 30px;
+  }
+  
+  .marginTop2 {
+    margin-top: 20px;
+  }
+  
+  .marginTop4 {
+    margin-top: 40px;
+  }
+  
+  .gradientbutton {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    border: none;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    height: -10%;
+    background: rgb(19, 175, 240);
+    background: linear-gradient(105deg, rgba(91, 104, 235, 1) 0%, rgba(40, 225, 253, 1) 100%);
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all .5s;
+    text-decoration: none !important;
+  }
+  .gradientbutton:hover{
+    background:  linear-gradient(105deg, rgb(123, 132, 235) 0%, rgbrgb(94, 233, 254)0%);
+    color:  rgba(91, 104, 235, 1) !important;
+
+  }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "497836715749",
+    "project_id": "workshopprojec04",
+    "storage_bucket": "workshopprojec04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497836715749:android:cdf9c3b880f9e4bc8d6e0c",
+        "android_client_info": {
+          "package_name": "com.example.demo_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2WKKeCwsSk5xBZzi382SS2eh1A4qXLaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

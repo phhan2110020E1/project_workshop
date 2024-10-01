@@ -1,0 +1,113 @@
+.container_css{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80%;
+    border-radius: 12px;
+    background-color: #8edcf0; /* Màu nền */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sử dụng box-shadow */
+}
+.div_media{
+    background-color: #ecf6f8; /* Màu nền */
+    border-radius: 12px;
+    display: grid; /* Sử dụng CSS Grid */
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); /* Chia đều theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 2px;
+}
+
+.button{
+    background-color: #6fd2e6;
+}
+
+@media (max-width: 600px) {
+    .div_media {
+        grid-template-columns: repeat(1, 1fr); /* 1 cột, mỗi cột chiếm toàn bộ chiều rộng */
+    }
+}
+
+.pricingItemRegular {
+    margin-top: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 50px;
+    padding: 90px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: none;
+  }
+  .pricingItemRegular:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    background-image: url(../../public/regular-table-top.png);
+    z-index: 0;
+    content: '';
+    width: 274px;
+    height: 221px;
+    transition: all 0.5s;
+  }
+  
+  .pricingItemRegular:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(../../public/regular-table-bottom.png);
+    z-index: -1;
+    content: '';
+    width: 370px;
+    height: 171px;
+    transition: all 0.5s;
+  }
+
+  .pricingItemRegular:hover:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background-image: url(../../public/pro-table-top.png);
+    z-index: 0;
+    content: '';
+    width: 274px;
+    height: 221px;
+  }
+  
+  .pricingItemRegular:hover:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    background-image: url(../../public/pro-table-bottom.png);
+    z-index: -1;
+    content: '';
+    width: 370px;
+    height: 171px;
+  }
+
+  .gradientbutton {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    border: none;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    height: -10%;
+    background: rgb(19, 175, 240);
+    background: linear-gradient(105deg, rgba(91, 104, 235, 1) 0%, rgba(40, 225, 253, 1) 100%);
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all .5s;
+    text-decoration: none !important;
+  }
+  .gradientbutton:hover{
+    background:  linear-gradient(105deg, rgb(123, 132, 235) 0%, rgbrgb(94, 233, 254)0%);
+    color:  rgba(91, 104, 235, 1) !important;
+
+  }

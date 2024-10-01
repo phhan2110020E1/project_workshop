@@ -1,0 +1,55 @@
+.container{
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius:10px ;
+}
+
+.title{
+  margin-bottom: 20px;
+  font-weight: 200;
+  color: var(--textSoft);
+}
+
+.table{
+  width: 100%;
+}
+
+.table td{
+  padding: 10px;
+}
+.tableHeader {
+  /* Add your custom styles for the header row here */
+  background-color: #f0f0f0;
+  font-weight: bold;
+  /* Add any other styles you want */
+}
+.tableHeader td {
+  padding-left: 50px;
+}
+
+.user{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.userImage{
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.status{
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+
+.done{
+  background-color: #1db52f;
+}
+
+.cancelled{
+  background-color: #f7737375;
+}

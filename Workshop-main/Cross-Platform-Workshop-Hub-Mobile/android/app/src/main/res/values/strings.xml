@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">InfinityConnect</string>
+    <string name="facebook_app_id">329629366465502</string>
+    <string name="fb_login_protocol_scheme">fb329629366465502</string>
+    <string name="facebook_client_token">26be1b5f1f3b01e81ffc185d5c2c0add</string>
+</resources>

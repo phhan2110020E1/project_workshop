@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/api/auth/[...nextauth]/route.js", "middleware.js", "app/user/layout.tsx", "app/user/page.tsx", "app/FireBase/page.js", "app/video/public/page.js", "app/admin/Components/SideBar/SideBar.jsx", "app/teacher/ui-components/buttons/company-card.js", "app/demoPaypal/[id]/page.tsx", "app/demoPaypal/[id]/component/PaypalButton.tsx", "utils/helper/helper.tsx", "app/admin/dashboard/users/[id]/page.tsx"],
+
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,607 @@
+.bannerImage {
+  background-image: url('../public/slider-left-dec.png');
+  background-size: auto 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
+
+}
+.navLink {
+  color: initial; /* Màu chữ mặc định */
+  transition: color 0.3s ease; /* Hiệu ứng chuyển động cho màu chữ */
+}
+.navLink:hover {
+  cursor: pointer; 
+  color: #4b8ef1;/* Gạch chân khi đưa chuột vào */
+}
+/* -----------DROP DOWN--------------- */
+.dropDown {
+  position: absolute;
+  z-index: 5; 
+  right: 15px;
+  top: 68px;
+}
+.LinkDropDown{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #000000;
+  transition: all .3s;
+  text-decoration: none;
+
+  }
+  .roundedCircle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Điều này làm cho ảnh trở thành hình tròn */
+    cursor: pointer; /* Để biểu thị rằng ảnh có thể được nhấp */
+  }
+  
+  .LinkDropDown:hover{
+ 
+  color: rgb(162, 133, 198); /* Ẩn màu chữ khi hover */
+ 
+}
+.dropdownCustom{
+  margin-top: -18%;
+  border-radius: 10px;
+  background-image: url(../public/pro-table-bottom.png), url(../public/regular-table-top.png);
+  background-position: right bottom, left top; /* Vị trí của hai hình ảnh */
+  background-repeat: no-repeat, no-repeat; 
+  background-size: auto, 30px; 
+}
+
+
+.bannerImage .left-content .white-button a {
+  background-color: #4b8ef1;
+  color: #fff !important;
+}
+
+.whiteButton a {
+  display: inline-block !important;
+  padding: 10px 20px !important;
+  color: #ffffff !important;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: #4b8ef1;
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.fontroboto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+
+}
+
+.fontsize-50 {
+  font-size: 50px;
+}
+
+.lineheight70 {
+  line-height: 70px;
+}
+
+.custombold {
+  font-weight: 700;
+}
+
+.about-us .box-item h4 a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 8px;
+  color: #2a2a2a;
+  transition: all .3s;
+}
+
+.mr-20 {
+  margin-right: 5%;
+}
+
+
+.gradientbutton {
+  display: inline-block !important;
+  padding: 10px 20px !important;
+  color: #fff !important;
+  text-transform: capitalize;
+  font-size: 15px;
+  height: -10%;
+  background: rgb(19, 175, 240);
+  background: linear-gradient(105deg, rgba(91, 104, 235, 1) 0%, rgba(40, 225, 253, 1) 100%);
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.serviceItem {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  border-top-right-radius: 50px;
+  transition: all .3s;
+  background-image: none; /* Loại bỏ hình ảnh ban đầu */
+}
+
+.serviceItem:hover {
+  background-image: url(../public/service-bg.jpg);
+  background-position: left top; /* Di chuyển từ bên phải sang bên trái khi hover */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.serviceItem:hover p,
+.serviceItem:hover h4,.serviceItem:hover .textButton .textButtonA {
+  color: #fff;
+}
+
+
+.icon {
+  z-index: 2; /* Đặt z-index cao hơn */
+  background-image: url(../public/service-icon-01.png);
+  margin-left: 0px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    transition: all .3s;
+
+}
+.serviceItem:hover .icon {
+  background-image: url(../public/service-icon-hover-01.png);
+}
+.sectionHeadingService {
+  position: relative;
+  z-index: 2;
+}
+
+.sectionHeadingService h4 {
+  color: #2a2a2a;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.emm {
+  font-style: normal;
+  color: #4b8ef1;
+}
+
+.customimage {
+  position: absolute;
+  right: 0%;
+  bottom: -14%;
+  width: 52%;
+  z-index: -1;
+}
+
+/* -----------CARD SLIDE--------------- */
+.cardCustom {
+  border: none !important;
+  height: 100%;
+  /* Loại bỏ viền cho .card và tất cả các phần tử con */
+}
+
+.titleCard{
+  color: #4b8ef1;
+  padding-left: 5%;
+}
+.serviceItem {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  border-top-right-radius: 50px;
+  transition: all .3s;
+}
+
+.indicartorsCustom [data-bs-target] {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.cardpublic {
+  width: 57px;
+  padding: 1%;
+}
+
+.textButton a {
+  font-size: 18px;
+  margin-left: 5px;
+  font-size: 14px;
+  transition: all .3s;
+  text-decoration: none;
+
+}
+
+
+/* -----------ABOUT US--------------- */
+.boxItem {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 40px;
+  margin-bottom: 30px;
+}
+
+.boxItem h4 a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 8px;
+  color: #2a2a2a;
+  transition: all .3s;
+  text-decoration: none;
+
+}
+
+.aboutUss:after {
+  background-image: url(../public/about-bg.jpg);
+  width: 777px;
+  height: 1132px;
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 0;
+  top: 180%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+
+
+/* -----------RATING--------------- */
+.rating {
+  display: flex;
+  /* Sử dụng Flexbox để căn chỉnh ngang */
+  align-items: center;
+  /* Căn giữa các radio và label theo trục dọc */
+}
+
+.rating input[type="radio"] {
+  display: none;
+  /* Ẩn radio button mặc định */
+}
+
+.rating label {
+  cursor: pointer;
+  content: '\2606';
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  margin: 0 5px;
+  position: relative;
+}
+
+.rating label::before {
+  content: '\2606';
+  /* Ký tự ngôi sao rỗng (hoặc biểu tượng khác nếu bạn muốn) */
+  font-size: 35px;
+  /* Kích thước của biểu tượng sao */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Căn giữa biểu tượng */
+  width: 20px;
+  /* Độ rộng của mỗi ngôi sao */
+  height: 20px;
+  /* Chiều cao của mỗi ngôi sao */
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  /* Để tạo hình tròn */
+  transition: color 0.3s;
+  /* Hiệu ứng màu khi chọn */
+  color: #ccc;
+  /* Màu sao rỗng */
+}
+
+.rating input[type="radio"]:checked+label::before {
+  content: '\2605';
+  /* Ký tự ngôi sao đầy (hoặc biểu tượng khác nếu bạn muốn) */
+  color: #373737;
+  /* Màu khi được chọn */
+
+}
+
+.clientContent {
+  padding: 60px 30px;
+  background-image: url(../public/client-bg.png);
+  background-size: cover;
+  border-radius: 50px;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.downContent {
+  padding: 10px 10px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  display: inline;
+}
+
+
+
+
+
+/* -----------PRICING ITEM--------------- */
+
+.pricingItemRegular:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  background-image: url(../public/regular-table-top.png);
+  z-index: 0;
+  content: '';
+  width: 274px;
+  height: 221px;
+}
+
+.pricingItemRegular:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../public/regular-table-bottom.png);
+  z-index: -1;
+  content: '';
+  width: 370px;
+  height: 171px;
+}
+
+.pricingItemRegular span.price {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+.pricingItemPro:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../public/pro-table-top.png);
+  z-index: 0;
+  content: '';
+  width: 281px;
+  height: 251px;
+}
+
+.pricingItemPro:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../public/pro-table-bottom.png);
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 201px;
+}
+
+.pricingItemPro span.price {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+.pricingItemPro {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+  padding: 120px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.pricingItemPro ul li {
+  color: #4b8ef1;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.sectionHeadingPricing h4 {
+  color: #2a2a2a;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.pricingItemRegular {
+  margin-top: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+  padding: 90px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border: none;
+}
+
+.pricingItemRegular ul li {
+  color: #4b8ef1;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.borderButton a {
+  display: inline-block !important;
+  padding: 10px 20px !important;
+  color: #4b8ef1 !important;
+  border: 1px solid #4b8ef1;
+  text-transform: capitalize;
+  font-size: 15px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+  z-index: 2;
+  position: static;
+  text-decoration: none
+}
+
+.borderButton a:hover {
+  background: linear-gradient(105deg, rgba(91, 104, 235, 1) 0%, rgba(40, 225, 253, 1) 100%);
+  color: #fff !important;
+  transition: all 0.2s;
+}
+
+/* -----------FOOTER--------------- */
+
+.footer {
+  background-image: url(../public/footer-bg.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 130px;
+  padding-top: 300px;
+  padding-bottom: 60px;
+}
+
+.sectionHeading h4 {
+  line-height: 45px;
+  color: #fff;
+  margin-left: 13%;
+  margin-right: 13%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.aCustom {
+  text-decoration: none !important;
+}
+
+.footerWidget .logo img {
+  max-width: 96px;
+  margin-bottom: 30px;
+}
+
+.footerWidget h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.footerWidget p {
+  margin-bottom: 15px;
+}
+
+.footerWidget p,
+.footerWidget p a {
+  color: #fff;
+}
+
+.footerWidget ul {
+  display: inline;
+  max-width: 40%;
+  float: left;
+  margin-right: 10%;
+}
+
+.footerWidget ul li {
+  margin-bottom: 10px;
+}
+
+.footerWidget ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.footerWidget ul li a {
+  font-size: 15px;
+  color: #fff;
+  transition: all .3s;
+  ;
+}
+
+.footerWidget a:hover {
+  opacity: 0.75;
+}
+
+
+/* SEARCH */
+.search {
+  margin-bottom: 80px;
+}
+
+.search input::placeholder {
+  color: #fff;
+}
+
+.search input {
+  font-size: 15px;
+  color: #fff;
+  outline: none;
+  height: 46px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+
+.search button {
+  height: 46px;
+  border-radius: 23px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  width: 100%;
+  transition: all .5s;
+}
+
+.search button:hover {
+  background-color: #fff;
+  color: #4b8ef1;
+}
+
+/* COPYRIGHT */
+.copyrightText p {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+li:not(.exclude-marker) {
+  list-style-type: none;
+}
+
+/* PTEXT */
+.pText {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #afafaf;
+}
